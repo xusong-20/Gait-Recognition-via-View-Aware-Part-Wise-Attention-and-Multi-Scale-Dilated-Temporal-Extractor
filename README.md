@@ -1,9 +1,8 @@
 # Gait recognition via View-aware Part-wise Attention and Multi-scale Dilated Temporal Extractor
-### [Code](https://gitee.com/song-xu123/VPA)
 
 #### Instructions
 
-1.  Download code and dataset
+1.  Download [code](https://gitee.com/song-xu123/VPA) and dataset
 
 2.   Environment
 
