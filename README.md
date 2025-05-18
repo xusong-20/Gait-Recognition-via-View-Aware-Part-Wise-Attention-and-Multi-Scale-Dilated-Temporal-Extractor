@@ -1,29 +1,41 @@
-# Gait-Recognition-via-View-Aware-Part-Wise-Attention-and-Multi-Scale-Dilated-Temporal-Extractor
-#### 使用说明
+# Gait recognition via View-aware Part-wise Attention and Multi-scale Dilated Temporal Extractor']
+# [Code](https://gitee.com/song-xu123/VPA)
 
-1.  下载 [CASIA-B Dataset](http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp)和[OU-MVLP Dataset](http://www.am.sanken.osakau.ac.jp/BiometricDB/GaitMVLP.html)，参考[GaitSet](https://github.com/AbnerHqC/GaitSet)预处理方式将轮廓裁剪为**64x64**大小
-2.  配置虚拟环境
+#### Instructions
+
+1.  Download code and dataset
+
+2.   Environment
+
 - Python 3.6
 - PyTorch 1.3.1
-3. 运行程序
+
+3. Run
 
 Train a model by
 ```bash
 python train.py
 ```
-- `--cache` if set as TRUE all the training data will be loaded at once before the training start.
-This will accelerate the training.
-**Note that** if this arg is set as FALSE, samples will NOT be kept in the memory
-even they have been used in the former iterations. #Default: TRUE
 
 Evaluate the trained model by
 ```bash
 python test.py
 ```
-- `--iter` iteration of the checkpoint to load. #Default: 20000
-- `--batch_size` batch size of the parallel test. #Default: 1
-- `--cache` if set as TRUE all the test data will be loaded at once before the transforming start.
-This might accelerate the testing. #Default: FALSE
+
 
 #### Citation
-- Gait Recognition via View-Aware Part-Wise Attention and Multi-Scale Dilated Temporal Extractor
+Please cite these papers in your publications if it helps your research:
+```
+@article{SONG2025105464,
+title = {Gait recognition via View-aware Part-wise Attention and Multi-scale Dilated Temporal Extractor},
+journal = {Image and Vision Computing},
+pages = {105464},
+year = {2025},
+issn = {0262-8856},
+doi = {https://doi.org/10.1016/j.imavis.2025.105464},
+url = {https://www.sciencedirect.com/science/article/pii/S0262885625000526},
+author = {Xu Song and Yongyao Li and Yan Huang and Caifeng Shan},
+}
+```
+Link to paper:
+- [Gait recognition via View-aware Part-wise Attention and Multi-scale Dilated Temporal Extractor](https://www.sciencedirect.com/science/article/abs/pii/S0262885625000526)
