@@ -35,6 +35,7 @@ issn = {0262-8856},
 doi = {https://doi.org/10.1016/j.imavis.2025.105464},
 url = {https://www.sciencedirect.com/science/article/pii/S0262885625000526},
 author = {Xu Song and Yang Wang and Yan Huang and Caifeng Shan},
+}
 ```
 Link to paper:
 - [Gait recognition via View-aware Part-wise Attention and Multi-scale Dilated Temporal Extractor](https://www.sciencedirect.com/science/article/abs/pii/S0262885625000526)
